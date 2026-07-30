@@ -8,6 +8,7 @@ import NPCsPage from "../pages/NPCsPage";
 import RulesPage from "../pages/RulesPage";
 import VillainsPage from "../pages/VillainsPage";
 import MigrationPage from "../pages/MigrationPage";
+import ForgotPasswordPage from "../pages/ForgotPasswordPage";
 
 export default function Router() {
   return (
@@ -15,6 +16,7 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<SignInPage />} />
         <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/characters" element={<CharactersPage />} />
         <Route path="/notes" element={<NotesPage />} />
