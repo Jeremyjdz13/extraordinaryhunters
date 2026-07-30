@@ -7,6 +7,7 @@ import NotesPage from "../pages/NotesPage";
 import NPCsPage from "../pages/NPCsPage";
 import RulesPage from "../pages/RulesPage";
 import VillainsPage from "../pages/VillainsPage";
+import MigrationPage from "../pages/MigrationPage";
 
 export default function Router() {
   return (
@@ -20,6 +21,7 @@ export default function Router() {
         <Route path="/npcs" element={<NPCsPage />} />
         <Route path="/rules" element={<RulesPage />} />
         <Route path="/villains" element={<VillainsPage />} />
+        <Route path="/migration" element={<MigrationPage />} />
       </Routes>
     </BrowserRouter>
   );

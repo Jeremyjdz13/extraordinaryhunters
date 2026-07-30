@@ -18,6 +18,7 @@ export default function SignInPage() {
           <Link to="/npcs">NPCs</Link>
           <Link to="/villains">Villains</Link>
           <Link to="/rules">Rules</Link>
+          <Link to="/migration">Migration</Link>
         </nav>
       </section>
     </main>

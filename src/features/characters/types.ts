@@ -9,7 +9,7 @@ export type Pool = {
 
 export type RichDoc = {
     format: "tiptap" | "markdown";
-    content: any;
+    content: unknown;
     updatedAt: FieldValue
 };
 
